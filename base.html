@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Copilot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <a class="logo-link" href="/">
+                <img src="{{ url_for('static', filename='logo.svg') }}" alt="AI Career Copilot logo" class="logo-icon">
+                <span>AI Career Copilot</span>
+            </a>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/dashboard">Dashboard</a>
+                <a href="/logout">Logout</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+            {% for i in range(5) %}
+                <span class="paper-bg__piece"></span>
+            {% endfor %}
+            {% block content %}  {% endblock %}
+    </main>
+    <footer>
+        <div class="container">
+            <p>@ 2026 AI Career Copilot..</p>
+        </div>
+    </footer>
+</body>
+</html>

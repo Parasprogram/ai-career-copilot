@@ -1,0 +1,16 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI Career Copilot logo">
+  <defs>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e7f0ff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="#3f72af"/>
+  <path d="M40 38h36a4 4 0 0 1 4 4v44a4 4 0 0 1-4 4H40a4 4 0 0 1-4-4V42a4 4 0 0 1 4-4z" fill="url(#paperGrad)" stroke="#c7d7f7" stroke-width="2"/>
+  <path d="M76 38v10a4 4 0 0 0 4 4h10" fill="none" stroke="#c7d7f7" stroke-width="2"/>
+  <path d="M68 38h8v8" fill="none" stroke="#c7d7f7" stroke-width="2"/>
+  <path d="M44 48h24" stroke="#3f72af" stroke-width="4" stroke-linecap="round"/>
+  <path d="M44 60h24" stroke="#3f72af" stroke-width="4" stroke-linecap="round"/>
+  <path d="M44 72h20" stroke="#3f72af" stroke-width="4" stroke-linecap="round"/>
+  <path d="M44 84h28" stroke="#8fbce6" stroke-width="4" stroke-linecap="round"/>
+</svg>
